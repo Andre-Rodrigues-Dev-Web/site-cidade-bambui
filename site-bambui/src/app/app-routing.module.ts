@@ -4,6 +4,7 @@ import { HomeComponent } from './shared/pages/home/home.component';
 import { SobreComponent } from './shared/pages/sobre/sobre.component';
 
 const routes: Routes = [
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: '', component: HomeComponent },
   { path: 'sobre', component: SobreComponent }
 ];

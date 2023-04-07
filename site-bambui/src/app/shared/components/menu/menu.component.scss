@@ -1,0 +1,30 @@
+.top{
+    width: 100%;
+    .menu_institucional{
+        background-color: #333;
+        .links{
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            justify-content: space-between;
+            li{
+                a{
+                    color: #fff;
+                }
+            }
+        }
+    }
+    .menu_categorias{
+        border-bottom: 1px solid #333;
+        .links{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            li{
+                a{
+                    color: #333;
+                }
+            }
+        }
+    }
+}
