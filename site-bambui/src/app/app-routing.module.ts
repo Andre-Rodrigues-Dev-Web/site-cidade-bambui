@@ -5,8 +5,8 @@ import { SobreComponent } from './shared/pages/sobre/sobre.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
-  { path: '', component: HomeComponent },
-  { path: 'sobre', component: SobreComponent }
+  { path: 'home', component: HomeComponent },
+  { path: 'sobre-nos', component: SobreComponent }
 ];
 
 @NgModule({
